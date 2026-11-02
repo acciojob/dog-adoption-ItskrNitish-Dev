@@ -1,2 +1,36 @@
 
 /* Your CSS Code here. */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
